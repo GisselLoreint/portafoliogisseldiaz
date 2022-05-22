@@ -1,0 +1,58 @@
+.h1-jobs{
+    color: crimson;
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 15%;
+}
+
+
+.cont-jobs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:5% 0 0 5%;
+    text-align: center;
+}
+
+.jobs-titulo{
+    background-image: url(./../../img/fondo-job2.jpg);
+    background-size: cover;
+    border-radius: 46%;
+    width: 350px;
+    height: 180px;
+    margin: 25px 50px 15px 5px;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 35% 2% 0 2%;
+    color: rgb(154, 49, 84);
+}
+
+.jobs-titulo:hover{
+    transform: scale(1);
+    background: rgba(237, 202, 164, 0.45);
+    border: 5px dashed rgba(88, 87, 85, 0.548);
+    animation: scale 1.2s;
+    color: rgb(231, 103, 71);
+}
+
+@keyframes scale {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+}
+
+.links{
+    text-decoration-line: none;
+    font-size: 23px;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+
+.links:hover{
+    color: rgb(223, 167, 47);
+}

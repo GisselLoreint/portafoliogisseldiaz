@@ -1,0 +1,11 @@
+.img-me{
+    display: flex;
+    justify-content: center;
+    padding-top: 6%;
+}
+
+.img-me img{
+    border-radius: 5%;
+    width: 380px;
+    border: 10px groove rgb(82, 106, 26);
+}

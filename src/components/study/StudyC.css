@@ -1,0 +1,56 @@
+.h1-estudios{
+    padding-top: 10rem;
+    text-align: center;
+    font-size: 36px;
+    color: crimson;
+}
+
+.cont-studies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:5% 0 0 5%;
+    text-align: center;
+}
+
+.study-inst{
+    background-image: url(./../../img/f4.jpg);
+    background-size: cover;
+    border-radius: 46%;
+    width: 350px;
+    height: 180px;
+    margin: 25px 50px 15px 5px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 35% 2% 0 2%;
+    color: rgb(206, 101, 136);
+}
+
+.study-inst:hover{
+    transform: scale(1);
+    background: rgba(231, 190, 56, 0.361);
+    animation: scale 1.2s;
+    color: rgb(229, 102, 70);
+    border: 5px dashed rgb(240, 184, 16);
+}
+
+@keyframes scale {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+}
+
+.links{
+    text-decoration-line: none;
+    font-size: 23px;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+
+.links:hover{
+    color: rgb(121, 8, 131);
+}
